@@ -1,4 +1,4 @@
-{{}
+{
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -18,5 +18,12 @@
     "ignoreDeprecations": "6.0"
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "src/vite-plugins", "src/components/ui", "src/api", "src/lib"]
-} 
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/vite-plugins",
+    "src/components/ui",
+    "src/api",
+    "src/lib"
+  ]
+}
